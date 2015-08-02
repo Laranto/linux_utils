@@ -1,0 +1,27 @@
+
+URxvt.saveLines: 1000
+URxvt.scrollBar: false
+URxvt.foreground: green
+URxvt.background: black
+URxvt.secondaryScroll: true
+URxvt.font: xft:Bitstream Vera Sans Mono:pixelsize=13
+URxvt.urlLauncher: firefox
+
+#Copy Paste not working :(
+URxvt.perl-ext-common: default,clipboard
+URxvt.iso14755: False
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.clipboard.copycmd:  xsel -ib
+URxvt.clipboard.pastecmd: xsel -ob
+
+URxvt.tabbed.saveLines: 1000
+URxvt.tabbed.scrollBar: false
+URxvt.tabbed.tabbar-fg: 3
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 1
+URxvt.tabbed.secondaryScroll: true
+URxvt.tabbed.font: xft:Bitstream Vera Sans Mono:pixelsize=12
+URxvt.tabbed.perl-ext-common: mark-urls
+URxvt.tabbed.urlLauncher: firefox
